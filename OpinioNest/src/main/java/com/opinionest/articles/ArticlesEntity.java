@@ -4,7 +4,7 @@ import java.util.Date;
 
 import org.springframework.data.annotation.CreatedDate;
 
-import com.opinionest.users.UserEntity;
+import com.opinionest.users.UsersEntity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -46,6 +46,6 @@ public class ArticlesEntity {
 	
 	@ManyToOne
 	@JoinColumn(name = "autherId", nullable =false)
-	private UserEntity userentity;
+	private UsersEntity userentity;
 	
 }

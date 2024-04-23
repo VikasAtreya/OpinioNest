@@ -22,7 +22,7 @@ import lombok.ToString;
 @ToString
 @RequiredArgsConstructor
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
-public class UserEntity {
+public class UsersEntity {
 	
 	@Id
 	@Column(nullable= false)
