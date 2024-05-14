@@ -7,4 +7,8 @@ public class ArticlesService {
 	
 	private ArticleRepository articleRepository;
 
+	public ArticlesService(ArticleRepository articleRepository) {
+		this.articleRepository = articleRepository;
+	}
+
 }

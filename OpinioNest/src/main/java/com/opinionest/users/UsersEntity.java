@@ -1,9 +1,6 @@
 package com.opinionest.users;
 
 
-
-
-
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -16,7 +13,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
-@Entity(name = "Articles")
+@Entity(name = "Users")
 @Getter
 @Setter
 @ToString

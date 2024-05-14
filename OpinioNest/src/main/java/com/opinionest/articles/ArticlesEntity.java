@@ -17,7 +17,7 @@ import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 
-@Entity(name= "User")
+@Entity(name= "Articles")
 @Getter
 @Setter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
